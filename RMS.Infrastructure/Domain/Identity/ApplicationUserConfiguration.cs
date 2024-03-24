@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using RMS.Domain.Entities;
 
-namespace RMS.Infrastructure.Domain;
+namespace RMS.Infrastructure.Domain.Identity;
 
 public class ApplicationUserConfiguration :IEntityTypeConfiguration<ApplicationUser>
 {
