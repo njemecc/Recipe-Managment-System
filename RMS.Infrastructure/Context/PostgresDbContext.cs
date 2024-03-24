@@ -19,7 +19,7 @@ public class PostgresDbContext: IdentityDbContext<ApplicationUser,IdentityRole,s
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-        optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=root;Database=rms");
+        optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=root;Database=RMS");
     
     
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new())
