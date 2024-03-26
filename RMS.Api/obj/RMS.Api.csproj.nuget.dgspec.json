@@ -99,7 +99,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.Domain\\RMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.Domain\\RMS.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -116,9 +120,21 @@
               "target": "Package",
               "version": "[11.9.0, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[9.0.0-preview.2.24128.5, )"
+            },
+            "Riok.Mapperly": {
+              "target": "Package",
+              "version": "[3.5.0-next.3, )"
             }
           },
           "imports": [
