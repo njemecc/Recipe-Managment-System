@@ -12,4 +12,9 @@ public class Category
     public string Name { get; set; }
     
     public IList<Recipe> Recipes { get; set; } = new List<Recipe>();
+
+    public Category()
+    {
+        Id = Guid.NewGuid();
+    }
 }
