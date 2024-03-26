@@ -8,6 +8,13 @@ public class Ingredient
         private set;
     }
     public string Name { get; set; }
+
+    public Ingredient(string name)
+    {
+        Name = name;
+        Id = Guid.NewGuid();
+        
+    }
     
-    public IList<RecipeIngrediant> RecipeIngredients { get; set; }
+    public IList<RecipeIngrediant> Receipts { get; set; }
 }
