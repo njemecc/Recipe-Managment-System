@@ -8,7 +8,7 @@ using RMS.Infrastructure.Configuration;
 
 namespace RMS.Infrastructure.Context;
 
-public class PostgresDbContext: IdentityDbContext<ApplicationUser,IdentityRole,string,IdentityUserClaim<string>,IdentityUserRole<string>,IdentityUserLogin<string>,IdentityRoleClaim<string>,IdentityUserToken<string>>,IPostgresDbContext
+public class PostgresDbContext(DbContextOptions<PostgresDbContext> options): IdentityDbContext<ApplicationUser,IdentityRole,string,IdentityUserClaim<string>,IdentityUserRole<string>,IdentityUserLogin<string>,IdentityRoleClaim<string>,IdentityUserToken<string>>(options),IPostgresDbContext
 {
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -20,8 +20,16 @@ public class PostgresDbContext: IdentityDbContext<ApplicationUser,IdentityRole,s
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
         optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=root;Database=RMS");
-    
-    
+
+
+    public DbSet<ApplicationUser> Users => Set<ApplicationUser>();
+    public DbSet<Recipe> Recipes => Set<Recipe>();
+
+    public DbSet<Category> Categories => Set<Category>();
+    public DbSet<Ingredient> Ingredients => Set<Ingredient>();
+
+    public DbSet<RecipeIngrediant> RecipeIngrediants => Set<RecipeIngrediant>();
+
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new())
     {
         var result = await base.SaveChangesAsync(cancellationToken);
