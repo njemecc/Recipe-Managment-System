@@ -1,7 +1,7 @@
 ﻿using Refit;
-using RMSSdk.Dto;
+using RMS.SDK.Dto;
 
-namespace RMSSdk;
+namespace RMS.SDK;
 
 public interface IRMSApi
 {

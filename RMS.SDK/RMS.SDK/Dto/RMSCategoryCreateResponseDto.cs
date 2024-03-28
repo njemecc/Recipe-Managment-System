@@ -1,3 +1,3 @@
-﻿namespace RMSSdk.Dto;
+﻿namespace RMS.SDK.Dto;
 
 public record RMSCategoryCreateResponseDto(string Name);
