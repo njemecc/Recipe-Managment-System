@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NSI.RMS.CategoryCreation.TEST.Njemec</id>
+    <version>0.0.1</version>
+    <authors>Njemec Branislav</authors>
+    <description>SDK for adding new Categories to the Recipe Managment System.</description>
+    <releaseNotes>v.0.0.1
+            -initial release</releaseNotes>
+    <repository type="git" commit="6c1e52f2d48c51b3d1786a3030417303135d1a15" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Refit" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\bin\Release\net8.0\RMS.SDK.dll" target="lib\net8.0\RMS.SDK.dll" />
+  </files>
+</package>

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Refit;
-using RMSSdk;
-using RMSSdk.Dto;
+using RMS.SDK;
+using RMS.SDK.Dto;
+
 
 namespace RMSTestSdk.Controllers;
 
