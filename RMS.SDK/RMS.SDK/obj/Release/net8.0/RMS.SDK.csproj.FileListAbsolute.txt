@@ -1,0 +1,13 @@
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\bin\Release\net8.0\RMS.SDK.deps.json
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\bin\Release\net8.0\RMS.SDK.dll
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\bin\Release\net8.0\RMS.SDK.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.dll
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\refint\RMS.SDK.dll
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\RMS.SDK.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.SDK\RMS.SDK\obj\Release\net8.0\ref\RMS.SDK.dll

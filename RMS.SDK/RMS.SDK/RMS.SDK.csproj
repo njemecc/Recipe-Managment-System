@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        
+        <PackageId>NjemecBranislavv</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Njemec Branislav</Authors>
+        <Company>Njemec LTD</Company>
+        <PackageDescription>
+            SDK for adding new Categories to the Recipe Managment System.
+        </PackageDescription>
+        <PackageReleaseNotes>
+            v.0.0.1
+            -initial release
+        </PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Refit" Version="7.0.0" />
+    </ItemGroup>
+
+</Project>
