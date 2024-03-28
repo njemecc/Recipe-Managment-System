@@ -1,0 +1,13 @@
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\bin\Debug\net8.0\RMSSdk.deps.json
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\bin\Debug\net8.0\RMSSdk.dll
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\bin\Debug\net8.0\RMSSdk.pdb
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.dll
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\refint\RMSSdk.dll
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\RMSSdk.pdb
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSSdk\obj\Debug\net8.0\ref\RMSSdk.dll

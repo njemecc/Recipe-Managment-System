@@ -1,0 +1,26 @@
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\bin\Debug\net8.0\RMS.Domain.deps.json
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\bin\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\bin\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\refint\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\ref\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\bin\Debug\net8.0\RMS.Domain.deps.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\bin\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\bin\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\refint\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\ref\RMS.Domain.dll

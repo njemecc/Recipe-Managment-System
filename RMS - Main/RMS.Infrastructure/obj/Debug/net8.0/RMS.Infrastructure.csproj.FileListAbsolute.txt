@@ -1,0 +1,40 @@
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.deps.json
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.runtimeconfig.json
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Application.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Application.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\bin\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.csproj.CopyComplete
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\refint\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.pdb
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.genruntimeconfig.cache
+C:\Users\brani\RiderProjects\RMS\RMS.Infrastructure\obj\Debug\net8.0\ref\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.deps.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.runtimeconfig.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Infrastructure.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Application.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Application.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\bin\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.csproj.CopyComplete
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\refint\RMS.Infrastructure.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\RMS.Infrastructure.genruntimeconfig.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Infrastructure\obj\Debug\net8.0\ref\RMS.Infrastructure.dll
