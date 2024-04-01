@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.SDK", "RMS.SDK\RMS.SDK.csproj", "{9A8C3E6A-3570-4E99-9B24-CD0BE470751B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.SDK.Api", "RMS.SDK.Api\RMS.SDK.Api.csproj", "{9A8C3E6A-3570-4E99-9B24-CD0BE470751B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.SDK.Application", "RMS.SDK.Application\RMS.SDK.Application.csproj", "{30BB78D8-2655-4F30-BB85-63E1E9C7D8B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9F56966E-789A-4C4D-AFD9-AC81D3019153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rms.Sdk.Tests", "Rms.Sdk.Tests\Rms.Sdk.Tests.csproj", "{F63962BD-46CA-48C5-9227-3FEE0865652C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,16 @@ Global
 		{9A8C3E6A-3570-4E99-9B24-CD0BE470751B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A8C3E6A-3570-4E99-9B24-CD0BE470751B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A8C3E6A-3570-4E99-9B24-CD0BE470751B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BB78D8-2655-4F30-BB85-63E1E9C7D8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BB78D8-2655-4F30-BB85-63E1E9C7D8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BB78D8-2655-4F30-BB85-63E1E9C7D8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BB78D8-2655-4F30-BB85-63E1E9C7D8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63962BD-46CA-48C5-9227-3FEE0865652C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63962BD-46CA-48C5-9227-3FEE0865652C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63962BD-46CA-48C5-9227-3FEE0865652C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63962BD-46CA-48C5-9227-3FEE0865652C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F63962BD-46CA-48C5-9227-3FEE0865652C} = {9F56966E-789A-4C4D-AFD9-AC81D3019153}
 	EndGlobalSection
 EndGlobal
