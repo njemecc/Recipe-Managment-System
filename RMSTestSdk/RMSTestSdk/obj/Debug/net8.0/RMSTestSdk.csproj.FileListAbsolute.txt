@@ -11,8 +11,6 @@ C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\Refit.dl
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\RMSSdk.dll
-C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\RMSSdk.pdb
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\RMSTestSdk.csproj.AssemblyReference.cache
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\RMSTestSdk.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\RMSTestSdk.AssemblyInfoInputs.cache
@@ -35,3 +33,6 @@ C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\refint\R
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\RMSTestSdk.pdb
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\RMSTestSdk.genruntimeconfig.cache
 C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\obj\Debug\net8.0\ref\RMSTestSdk.dll
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\RMS.SDK.Api.dll
+C:\Users\brani\RiderProjects\RMS\RMSTestSdk\RMSTestSdk\bin\Debug\net8.0\RMS.SDK.Application.dll

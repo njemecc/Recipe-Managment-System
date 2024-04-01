@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Refit;
 using RMS.SDK;
+using RMS.SDK.Application.Client;
+using RMS.SDK.Application.Models;
 using RMS.SDK.Dto;
 
 
@@ -12,8 +14,16 @@ public class IngredientController() : ControllerBase
     public async Task<IActionResult> Create(RMSCategoryCreateDto category)
     {
 
-        var myApi = RestService.For<IRMSApi>("http://localhost:5035");
-        var result = await myApi.CreateCategoryAsync(new RMSCategoryCreateRequestDto(category));
+        var httpClient = new HttpClient
+        {
+            BaseAddress = new Uri("http://localhost:5035")
+        };
+
+
+        var myApi = RestService.For<IRMSApi>(httpClient);
+        var client = new RmsSdkClient(myApi);
+        
+        var result = await client.CreateCategoryAsync(new RmsCategoryCreateRequestModel(category.Name));
         return Ok(result);
 
     }

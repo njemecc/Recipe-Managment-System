@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mnqIAwgXllPfZdjQruO1st8A6DEv35i6EBueTH4G9hnA4OK7F0qiY5P/EC4bZDr7UJ9ry9NaWnSGr+bwuS2IQw==",
+  "dgSpecHash": "+GZmyjdb3xRME45hfKoUyf9dIxbdXXSgZwcXp28KaBOJG2GxsYw93HOOOtrCV323EUk8cTdKfvFRk0888dqnrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brani\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\brani\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\brani\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.2.24128.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
     "C:\\Users\\brani\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\njemecbranislavv\\0.0.1\\njemecbranislavv.0.0.1.nupkg.sha512",
+    "C:\\Users\\brani\\.nuget\\packages\\njemecbranislavcategorycreation\\0.0.1\\njemecbranislavcategorycreation.0.0.1.nupkg.sha512",
     "C:\\Users\\brani\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
     "C:\\Users\\brani\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\brani\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
