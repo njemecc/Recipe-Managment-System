@@ -42,6 +42,15 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "System.Text.Encodings.Web/7.0.0": {
         "type": "package",
         "compile": {
@@ -140,6 +149,64 @@
         "system.net.http.json.7.0.1.nupkg.sha512",
         "system.net.http.json.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "sha512": "AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "type": "package",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.ILGeneration.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.ILGeneration.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.ILGeneration.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.ILGeneration.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.ILGeneration.xml",
+        "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+        "system.reflection.emit.ilgeneration.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Text.Encodings.Web/7.0.0": {
@@ -247,20 +314,21 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Refit >= 7.0.0"
+      "Refit >= 7.0.0",
+      "System.Reflection.Emit.ILGeneration >= 4.7.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\brani\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK\\RMS.SDK.csproj",
-      "projectName": "NjemecBranislavv",
-      "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK\\RMS.SDK.csproj",
+      "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK.Api\\RMS.SDK.Api.csproj",
+      "projectName": "RMS.SDK.Api",
+      "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK.Api\\RMS.SDK.Api.csproj",
       "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK\\obj\\",
+      "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,6 +360,10 @@
           "Refit": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "System.Reflection.Emit.ILGeneration": {
+            "target": "Package",
+            "version": "[4.7.0, )"
           }
         },
         "imports": [

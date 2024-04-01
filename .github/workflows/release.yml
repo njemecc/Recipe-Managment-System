@@ -17,9 +17,9 @@ jobs:
         run: dotnet test -c Release --no-build
       - name: Pack nugets
         run: |
-          cd ./NsiDemo.Sdk.Application
+          cd ./RMS.SDK/RMS.SDK.Application
           dotnet pack -c Release -o out
       - name: List files in directory
-        run: ls ./NsiDemo.Sdk.Application/out
+        run: ls ./RMS.SDK/RMS.SDK.Application/out
       - name: Push to NuGet
-        run: dotnet nuget push "./NsiDemo.Sdk.Application/out/*.nupkg" --api-key ${{secrets.nuget_api_key}} --source https://api.nuget.org/v3/index.json --skip-duplicate
+        run: dotnet nuget push "./RMS.SDK/RMS.SDK.Application/out/*.nupkg" --api-key ${{secrets.nuget_api_key}} --source https://api.nuget.org/v3/index.json --skip-duplicate

@@ -6,5 +6,5 @@ namespace RMS.SDK;
 public interface IRMSApi
 {
     [Post("/api/Category/Create")]
-    public Task<RMSCategoryCreateResponseDto> CreateCategoryAsync(RMSCategoryCreateRequestDto request);
+    public Task<RmsCategoryCreateResponseDto> CreateCategoryAsync(RMSCategoryCreateRequestDto request);
 }
