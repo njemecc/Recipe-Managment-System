@@ -1,26 +1,39 @@
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\bin\Debug\net8.0\RMS.Domain.deps.json
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\bin\Debug\net8.0\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\bin\Debug\net8.0\RMS.Domain.pdb
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.AssemblyReference.cache
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfoInputs.cache
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfo.cs
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.CoreCompileInputs.cache
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.sourcelink.json
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\refint\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\RMS.Domain.pdb
-C:\Users\brani\RiderProjects\RMS\RMS.Domain\obj\Debug\net8.0\ref\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\bin\Debug\net8.0\RMS.Domain.deps.json
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\bin\Debug\net8.0\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\bin\Debug\net8.0\RMS.Domain.pdb
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.AssemblyReference.cache
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfoInputs.cache
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.AssemblyInfo.cs
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.csproj.CoreCompileInputs.cache
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.sourcelink.json
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\refint\RMS.Domain.dll
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\RMS.Domain.pdb
-C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\obj\Debug\net8.0\ref\RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/bin/Debug/net8.0/RMS.Domain.deps.json
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/bin/Debug/net8.0/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/bin/Debug/net8.0/RMS.Domain.pdb
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.csproj.AssemblyReference.cache
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.AssemblyInfoInputs.cache
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.AssemblyInfo.cs
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.csproj.CoreCompileInputs.cache
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.sourcelink.json
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/refint/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/RMS.Domain.pdb
+C:/Users/brani/RiderProjects/RMS/RMS.Domain/obj/Debug/net8.0/ref/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/bin/Debug/net8.0/RMS.Domain.deps.json
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/bin/Debug/net8.0/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/bin/Debug/net8.0/RMS.Domain.pdb
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.csproj.AssemblyReference.cache
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.AssemblyInfoInputs.cache
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.AssemblyInfo.cs
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.csproj.CoreCompileInputs.cache
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.sourcelink.json
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/refint/RMS.Domain.dll
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.pdb
+C:/Users/brani/RiderProjects/RMS/RMS - Main/RMS.Domain/obj/Debug/net8.0/ref/RMS.Domain.dll
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/bin/Debug/net8.0/RMS.Domain.deps.json
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/bin/Debug/net8.0/RMS.Domain.dll
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/bin/Debug/net8.0/RMS.Domain.pdb
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.csproj.AssemblyReference.cache
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.AssemblyInfoInputs.cache
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.AssemblyInfo.cs
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.csproj.CoreCompileInputs.cache
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.sourcelink.json
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.dll
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/refint/RMS.Domain.dll
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/RMS.Domain.pdb
+/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/obj/Debug/net8.0/ref/RMS.Domain.dll
