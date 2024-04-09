@@ -2974,35 +2974,37 @@
     ]
   },
   "packageFolders": {
-    "/home/levi/.nuget/packages/": {}
+    "C:\\Users\\brani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj",
       "projectName": "RMS.Infrastructure",
-      "projectPath": "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj",
-      "packagesPath": "/home/levi/.nuget/packages/",
-      "outputPath": "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Infrastructure/obj/",
+      "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/levi/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Application/RMS.Application.csproj": {
-              "projectPath": "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Application/RMS.Application.csproj"
+            "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj": {
+              "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj"
             },
-            "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
-              "projectPath": "/home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/RMS.Domain.csproj"
+            "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj": {
+              "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj"
             }
           }
         }
@@ -3054,7 +3056,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
