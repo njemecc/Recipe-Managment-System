@@ -1,0 +1,27 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+using Moq;
+using RMS.Application.Common.Interfaces;
+
+namespace RMS.FunctionalTests;
+
+public class BaseTest : IClassFixture<CustomWebApplicationFactory<Program>>
+{
+
+    private readonly CustomWebApplicationFactory<Program> _factory;
+    public readonly HttpClient Client;
+    public readonly IPostgresDbContext DbContext;
+    public readonly Mock<IRecipeService> MockRecipeService;
+
+
+    public BaseTest(CustomWebApplicationFactory<Program> factory)
+    {
+        _factory = factory;
+        Client = factory.CreateClient();
+        var scope = factory.Services.CreateScope();
+        DbContext = scope.ServiceProvider.GetRequiredService<IPostgresDbContext>();
+        MockRecipeService = factory.MockRecipeService;
+    }
+    
+}

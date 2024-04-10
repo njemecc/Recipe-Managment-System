@@ -19,9 +19,13 @@ public class ApplicationUser : IdentityUser
 
     public IList<Recipe> Recipes { get; set; } = new List<Recipe>();
 
-    public ApplicationUser()
+    public ApplicationUser(string firstName,string lastName, string email, string password)
     {
         Id = Guid.NewGuid().ToString();
+        this.FirstName = firstName;
+        this.LastName = lastName;
+        this.Email = email;
+        this.Password = password;
     }
 
 

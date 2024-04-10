@@ -5,5 +5,5 @@ namespace RMS.Application.Common.Interfaces;
 
 public interface IRecipeService
 {
-  Task<RecipeDetailsDto> Created(RecipeCreateDto recipe);
+  Task<RecipeDetailsDto> CreateRecipeAsync(RecipeCreateDto recipe);
 }
