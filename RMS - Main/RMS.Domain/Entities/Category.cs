@@ -13,8 +13,9 @@ public class Category
     
     public IList<Recipe> Recipes { get; set; } = new List<Recipe>();
 
-    public Category()
+    public Category(string name)
     {
         Id = Guid.NewGuid();
+        this.Name = name;
     }
 }
