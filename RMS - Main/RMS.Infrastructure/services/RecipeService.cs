@@ -9,7 +9,7 @@ namespace RMS.Infrastructure.services;
 
 public class RecipeService(IPostgresDbContext dbContext) : IRecipeService
 {
-    public async Task<RecipeDetailsDto> Created(RecipeCreateDto recipe)
+    public async Task<RecipeDetailsDto> CreateRecipeAsync(RecipeCreateDto recipe)
     {
         var user = await dbContext.Users.Where(x => x.Id == recipe.UserId).FirstOrDefaultAsync();
 
