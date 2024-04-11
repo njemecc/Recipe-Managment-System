@@ -9,5 +9,6 @@ namespace RMS.Api.Webhooks;
 [Authorize(AuthenticationSchemes = nameof(AuthConstants.HeaderBasicAuthenticationScheme))]
 public class CategoryCreationWebHook : BaseWebhook
 {
+    [HttpPost]
     public async Task<IActionResult> Create(CategoryCreateCommand command) => Ok(await Mediator.Send(command));
 }
