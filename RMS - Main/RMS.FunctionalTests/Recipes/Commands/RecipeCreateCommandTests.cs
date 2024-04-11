@@ -1,5 +1,7 @@
 ﻿using System.Net;
 using System.Net.Http.Json;
+using System.Text;
+using System.Text.Json;
 using FluentAssertions;
 using FluentAssertions.Execution;
 using RMS.Application.Common.Dto.Recipe;
@@ -35,11 +37,14 @@ public class RecipeCreateCommandTests : BaseTest
         await DbContext.SaveChangesAsync(new CancellationToken());
 
         var recipe = new RecipeBuilder().WithUser(user).WithCategory(category).WithInstruction("-").WithTitle("-").Build();
-
+        var serializedRecipe = JsonSerializer.Serialize(recipe);
+        var searializedRecipeStringContent = new StringContent(serializedRecipe, Encoding.UTF8, "application/json");
 
         //When
 
-        var response = await Client.PostAsJsonAsync("/api/Recipe/Create", recipe);
+        var response = await Client.PostAsync("/api/Recipe/Create", searializedRecipeStringContent);
+        
+        
 
 
         //Then
