@@ -18,8 +18,20 @@ public class PostgresDbContext(DbContextOptions<PostgresDbContext> options): Ide
     }
 
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-        optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=root;Database=RMS");
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        
+        if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") != "Test")
+        {
+           
+                   
+            optionsBuilder.UseNpgsql("Host=localhost;Username=postgres;Password=root;Database=RMS");
+            
+        }
+        
+ 
+    }
+        
 
 
     public DbSet<ApplicationUser> Users => Set<ApplicationUser>();
