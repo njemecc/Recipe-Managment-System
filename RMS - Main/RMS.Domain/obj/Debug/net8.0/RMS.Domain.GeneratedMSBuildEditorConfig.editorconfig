@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RMS.Domain
-build_property.ProjectDir = C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Domain\
+build_property.ProjectDir = /home/levi/Projects/dotNet/Recipe-Managment-System/RMS - Main/RMS.Domain/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

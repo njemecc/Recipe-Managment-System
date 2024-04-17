@@ -4,6 +4,7 @@ using RMS.Application.Common.Interfaces;
 using RMS.Application.Common.Mappers;
 using RMS.Application.Recipes.commands;
 using RMS.Domain.Entities;
+using RMS.Domain.Enums;
 
 namespace RMS.Infrastructure.services;
 
@@ -13,8 +14,7 @@ public class RecipeService(IPostgresDbContext dbContext) : IRecipeService
     {
         var user = await dbContext.Users.Where(x => x.Id == recipe.UserId).FirstOrDefaultAsync();
 
-        var category = await dbContext.Categories.Where(x => x.Id == recipe.CategoryId)
-            .FirstOrDefaultAsync();
+        var category = new Category("test", 12);
         
         if (user == null || category == null )
         {
