@@ -1,4 +1,6 @@
-﻿namespace RMS.Domain.Entities;
+﻿using RMS.Domain.Enums;
+
+namespace RMS.Domain.Entities;
 
 public class Recipe
 {
@@ -38,7 +40,8 @@ public class Recipe
 
     public Recipe()
     {
-        Id = Guid.NewGuid();
+        Id = new Guid();
+
     }
     
 }
