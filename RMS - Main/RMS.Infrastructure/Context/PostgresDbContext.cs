@@ -4,11 +4,12 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using RMS.Application.Common.Interfaces;
 using RMS.Domain.Entities;
+using RMS.Domain.Enums;
 using RMS.Infrastructure.Configuration;
 
 namespace RMS.Infrastructure.Context;
 
-public class PostgresDbContext(DbContextOptions<PostgresDbContext> options): IdentityDbContext<ApplicationUser,IdentityRole,string,IdentityUserClaim<string>,IdentityUserRole<string>,IdentityUserLogin<string>,IdentityRoleClaim<string>,IdentityUserToken<string>>(options),IPostgresDbContext
+public class PostgresDbContext: IdentityDbContext<ApplicationUser,IdentityRole,string,IdentityUserClaim<string>,IdentityUserRole<string>,IdentityUserLogin<string>,IdentityRoleClaim<string>,IdentityUserToken<string>>,IPostgresDbContext
 {
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -36,8 +37,7 @@ public class PostgresDbContext(DbContextOptions<PostgresDbContext> options): Ide
 
     public DbSet<ApplicationUser> Users => Set<ApplicationUser>();
     public DbSet<Recipe> Recipes => Set<Recipe>();
-
-    public DbSet<Category> Categories => Set<Category>();
+    
     public DbSet<Ingredient> Ingredients => Set<Ingredient>();
 
     public DbSet<RecipeIngrediant> RecipeIngrediants => Set<RecipeIngrediant>();
