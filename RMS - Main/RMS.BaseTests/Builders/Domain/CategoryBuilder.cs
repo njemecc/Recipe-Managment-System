@@ -1,4 +1,5 @@
 ﻿using RMS.Domain.Entities;
+using RMS.Domain.Enums;
 
 namespace RMS.BaseTests.Builders.Domain
 {
@@ -14,7 +15,7 @@ namespace RMS.BaseTests.Builders.Domain
 
         public Category Build()
         {
-            return new Category(_name);
+            return new Category("-", new Random().Next());
         }
     }
 }
