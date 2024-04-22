@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
+using RMS.Domain.Enums;
 using RMS.Infrastructure.Context;
 
 #nullable disable
@@ -227,21 +228,6 @@ namespace RMS.Infrastructure.Migrations
                     b.ToTable("Users", (string)null);
                 });
 
-            modelBuilder.Entity("RMS.Domain.Entities.Category", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Category");
-                });
-
             modelBuilder.Entity("RMS.Domain.Entities.Ingredient", b =>
                 {
                     b.Property<Guid>("Id")
@@ -254,7 +240,7 @@ namespace RMS.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ingredient");
+                    b.ToTable("Ingredients");
                 });
 
             modelBuilder.Entity("RMS.Domain.Entities.Recipe", b =>
@@ -262,8 +248,10 @@ namespace RMS.Infrastructure.Migrations
                     b.Property<Guid>("Id")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("CategoryId")
-                        .HasColumnType("uuid");
+                    b.Property<int>("Category")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(1);
 
                     b.Property<string>("Instruction")
                         .IsRequired()
@@ -278,8 +266,6 @@ namespace RMS.Infrastructure.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
 
                     b.HasIndex("UserId");
 
@@ -298,7 +284,7 @@ namespace RMS.Infrastructure.Migrations
 
                     b.HasIndex("IngredientId");
 
-                    b.ToTable("RecipeIngrediant");
+                    b.ToTable("RecipeIngrediants");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -363,19 +349,11 @@ namespace RMS.Infrastructure.Migrations
 
             modelBuilder.Entity("RMS.Domain.Entities.Recipe", b =>
                 {
-                    b.HasOne("RMS.Domain.Entities.Category", "Category")
-                        .WithMany("Recipes")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("RMS.Domain.Entities.ApplicationUser", "User")
                         .WithMany("Recipes")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Category");
 
                     b.Navigation("User");
                 });
@@ -383,13 +361,13 @@ namespace RMS.Infrastructure.Migrations
             modelBuilder.Entity("RMS.Domain.Entities.RecipeIngrediant", b =>
                 {
                     b.HasOne("RMS.Domain.Entities.Ingredient", "Ingredient")
-                        .WithMany("RecipeIngredients")
+                        .WithMany("Receipts")
                         .HasForeignKey("IngredientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("RMS.Domain.Entities.Recipe", "Recipe")
-                        .WithMany("RecipeIngrediants")
+                        .WithMany("Ingrediants")
                         .HasForeignKey("RecipeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -406,19 +384,14 @@ namespace RMS.Infrastructure.Migrations
                     b.Navigation("Roles");
                 });
 
-            modelBuilder.Entity("RMS.Domain.Entities.Category", b =>
-                {
-                    b.Navigation("Recipes");
-                });
-
             modelBuilder.Entity("RMS.Domain.Entities.Ingredient", b =>
                 {
-                    b.Navigation("RecipeIngredients");
+                    b.Navigation("Receipts");
                 });
 
             modelBuilder.Entity("RMS.Domain.Entities.Recipe", b =>
                 {
-                    b.Navigation("RecipeIngrediants");
+                    b.Navigation("Ingrediants");
                 });
 #pragma warning restore 612, 618
         }

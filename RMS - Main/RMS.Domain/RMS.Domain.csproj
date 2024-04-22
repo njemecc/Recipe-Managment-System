@@ -7,7 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Ardalis.SmartEnum" Version="8.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+      <PackageReference Include="SmartEnums" Version="3.0.2" />
     </ItemGroup>
 
 </Project>

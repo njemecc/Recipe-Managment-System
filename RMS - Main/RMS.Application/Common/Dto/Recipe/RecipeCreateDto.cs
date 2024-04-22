@@ -3,4 +3,4 @@ using RMS.Domain.Entities;
 
 namespace RMS.Application.Common.Dto.Recipe;
 
-public record RecipeCreateDto(string UserId,Guid CategoryId, string Title, string Instruction,IList<IngredientCreateDto>? Ingredients);
+public record RecipeCreateDto(string UserId,Domain.Enums.Category Category, string Title, string Instruction,IList<IngredientCreateDto>? Ingredients);

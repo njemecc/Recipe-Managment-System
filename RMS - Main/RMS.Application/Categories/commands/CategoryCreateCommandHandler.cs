@@ -9,10 +9,10 @@ public class CategoryCreateCommandHandler(IPostgresDbContext dbContext) : IReque
 {
     public async Task<CategoryDetailsDto> Handle(CategoryCreateCommand request, CancellationToken cancellationToken)
     {
-        var category =  dbContext.Categories.Add(request.Category.FromCreateCategoryDtoToEntity());
-
-        await dbContext.SaveChangesAsync(cancellationToken);
-
+        // var category =  dbContext.Categories.Add(request.Category.FromCreateCategoryDtoToEntity());
+        //
+        // await dbContext.SaveChangesAsync(cancellationToken);
+        //
         return request.Category.FromCreateCategoryDtoToEntity().ToCategoryDetailsDto();
     }
 }
