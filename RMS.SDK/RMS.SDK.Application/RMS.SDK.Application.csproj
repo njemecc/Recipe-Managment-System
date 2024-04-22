@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>NjemecBranislavCategoryCreation</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Njemec Branislav</Authors>
+        <Company>Njemec LTD</Company>
+        <PackageDescription>
+            SDK for adding new Categories to the Recipe Managment System.
+        </PackageDescription>
+        <PackageReleaseNotes>
+            v.0.0.1
+            -initial release
+        </PackageReleaseNotes>
+        <RootNamespace>RMS.SDK</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Constants\" />
+      <Folder Include="Enums\" />
+      <Folder Include="Exceptions\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RMS.SDK.Api\RMS.SDK.Api.csproj" PrivateAssets="All" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0-preview.2.24128.5" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
+    </PropertyGroup>
+
+
+    <Target Name="CopyProjectReferencesToPackage" DependsOnTargets="BuildOnlySettings;ResolveReferences">
+        <ItemGroup>
+            <!-- Filter out unnecessary files -->
+            <_ReferenceCopyLocalPaths Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference')-&gt;WithMetadataValue('PrivateAssets', 'All'))" />
+        </ItemGroup>
+
+        <!-- Print batches for debug purposes -->
+        <Message Text="Batch for .nupkg: ReferenceCopyLocalPaths = @(_ReferenceCopyLocalPaths), ReferenceCopyLocalPaths.DestinationSubDirectory = %(_ReferenceCopyLocalPaths.DestinationSubDirectory) Filename = %(_ReferenceCopyLocalPaths.Filename) Extension = %(_ReferenceCopyLocalPaths.Extension)" Importance="High" Condition="'@(_ReferenceCopyLocalPaths)' != ''" />
+
+        <ItemGroup>
+            <!-- Add file to package with consideration of sub folder. If empty, the root folder is chosen. -->
+            <BuildOutputInPackage Include="@(_ReferenceCopyLocalPaths)" TargetPath="%(_ReferenceCopyLocalPaths.DestinationSubDirectory)" />
+        </ItemGroup>
+    </Target>
+    
+</Project>

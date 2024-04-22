@@ -1,4 +1,5 @@
 ﻿using RMS.Domain.Entities;
+using RMS.Domain.Enums;
 
 namespace RMS.BaseTests.Builders.Domain
 

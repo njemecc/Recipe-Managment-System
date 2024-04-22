@@ -14,7 +14,7 @@ public class RecipeService(IPostgresDbContext dbContext) : IRecipeService
     {
         var user = await dbContext.Users.Where(x => x.Id == recipe.UserId).FirstOrDefaultAsync();
 
-        var category = new Category("test", 12);
+        var category = new Category("Basic Meal", new Random().Next());
         
         if (user == null || category == null )
         {
