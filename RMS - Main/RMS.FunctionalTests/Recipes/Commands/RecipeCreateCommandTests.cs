@@ -32,7 +32,6 @@ public class RecipeCreateCommandTests : BaseTest
         
 
         await DbContext.Users.AddAsync(user);
-        await DbContext.Categories.AddAsync(category);
         await DbContext.Ingredients.AddAsync(ingredient);
         await DbContext.SaveChangesAsync(new CancellationToken());
 
