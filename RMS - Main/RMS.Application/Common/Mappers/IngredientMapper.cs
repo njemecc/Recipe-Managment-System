@@ -11,4 +11,6 @@ public static partial class IngredientMapper
     public static partial Ingredient FromCreateIngredientDtoToEntity(this IngredientCreateDto dto);
 
     public static partial IngredientCreateDto FromEntityToIngredientCreateDto(this Ingredient entity);
+
+    public static partial IngredientDetailsDto FromEntityToIngredientDetailsDto(this Ingredient entity);
 }
