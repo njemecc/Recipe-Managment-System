@@ -6,9 +6,9 @@ using RMS.Application.Common.Mappers;
 
 namespace RMS.Application.Ingredients.queries;
 
-public class IngredientsGetByRecipeIdCommandHandler(IPostgresDbContext dbContext) : IRequestHandler<IngredientsGetByRecipeIdCommand,IList<IngredientCreateDto>>
+public class IngredientsGetByRecipeIdQueryHandler(IPostgresDbContext dbContext) : IRequestHandler<IngredientsGetByRecipeIdQuery,IList<IngredientCreateDto>>
 {
-    public async Task<IList<IngredientCreateDto>> Handle(IngredientsGetByRecipeIdCommand request, CancellationToken cancellationToken)
+    public async Task<IList<IngredientCreateDto>> Handle(IngredientsGetByRecipeIdQuery request, CancellationToken cancellationToken)
     {
       var Ingredients = await dbContext.RecipeIngrediants.Where(x => x.RecipeId.ToString() == request.RecipeId).Select(ri => ri.Ingredient).ToListAsync(cancellationToken);
 
