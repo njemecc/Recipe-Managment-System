@@ -11,5 +11,5 @@ public interface IRMSApi
     
     
     [Post("/api/Ingredient/Create")]
-    public Task<IngredientCreateResponseDto> CreateIngredientAsync(IngredientCreateDto request);
+    public Task<IngredientCreateResponseDto> CreateIngredientAsync(IngredientCreateRequestDto request);
 }
