@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RMS.SDK.Application.Client;
+using RMS.SDK.Client;
 
 namespace RMS.SDK.Application;
 
