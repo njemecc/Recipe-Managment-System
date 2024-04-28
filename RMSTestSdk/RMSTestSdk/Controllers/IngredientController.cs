@@ -19,6 +19,7 @@ public class IngredientController:ControllerBase
         var client = new RmsSdkClient(myApi);
         
         var result = await client.CreateIngredientAsync(new IngredientCreateRequestModel(ingredient.Name));
+        
         return Ok(result);
 
     }

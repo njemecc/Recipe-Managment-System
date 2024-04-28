@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj": {}
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj": {}
   },
   "projects": {
-    "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj",
         "projectName": "RMSTestSdk",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
