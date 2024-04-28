@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.FunctionalTests/RMS.FunctionalTests.csproj": {}
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.FunctionalTests\\RMS.FunctionalTests.csproj": {}
   },
   "projects": {
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Api/RMS.Api.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Api\\RMS.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Api/RMS.Api.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Api\\RMS.Api.csproj",
         "projectName": "RMS.Api",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Api/RMS.Api.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Api/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Api\\RMS.Api.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj"
               }
             }
           }
@@ -70,34 +72,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj",
         "projectName": "RMS.Application",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj"
               }
             }
           }
@@ -112,6 +116,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[11.9.0, )"
@@ -153,34 +161,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.BaseTests\\RMS.BaseTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.BaseTests\\RMS.BaseTests.csproj",
         "projectName": "RMS.BaseTests",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.BaseTests\\RMS.BaseTests.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.BaseTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj"
               }
             }
           }
@@ -210,26 +220,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj",
         "projectName": "RMS.Domain",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -277,43 +289,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.FunctionalTests/RMS.FunctionalTests.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.FunctionalTests\\RMS.FunctionalTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.FunctionalTests/RMS.FunctionalTests.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.FunctionalTests\\RMS.FunctionalTests.csproj",
         "projectName": "RMS.FunctionalTests",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.FunctionalTests/RMS.FunctionalTests.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.FunctionalTests/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.FunctionalTests\\RMS.FunctionalTests.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.FunctionalTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Api/RMS.Api.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Api/RMS.Api.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Api\\RMS.Api.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Api\\RMS.Api.csproj"
               },
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj"
               },
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.BaseTests\\RMS.BaseTests.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.BaseTests\\RMS.BaseTests.csproj"
               },
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj"
               }
             }
           }
@@ -385,37 +399,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj": {
+    "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj",
         "projectName": "RMS.Infrastructure",
-        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj",
-        "packagesPath": "/home/levi/.nuget/packages/",
-        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\RMS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/levi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj"
               },
-              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
-                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj"
+              "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj": {
+                "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj"
               }
             }
           }
@@ -467,7 +483,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RMSTestSdk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c09a95691f5e5be06319a38a351a10a44a7b066")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97b5f410a86992229c0560774d78a1824c18b9e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("RMSTestSdk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RMSTestSdk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

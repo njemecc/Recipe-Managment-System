@@ -31,6 +31,26 @@
           }
         }
       },
+      "FluentValidation.AspNetCore/11.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.5.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.5.1"
+        },
+        "compile": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "FluentValidation.DependencyInjectionExtensions/11.9.0": {
         "type": "package",
         "dependencies": {
@@ -723,6 +743,25 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.3.0": {
+      "sha512": "jtFVgKnDFySyBlPS8bZbTKEEwJZnn11rXXJ2SQnjDhZ56rQqybBg9Joq4crRLz3y0QR8WoOq4iE4piV81w/Djg==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
       ]
     },
     "FluentValidation.DependencyInjectionExtensions/11.9.0": {
@@ -1760,6 +1799,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FluentValidation.AspNetCore >= 11.3.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.9.0",
       "MediatR >= 12.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.2",
@@ -1770,32 +1810,34 @@
     ]
   },
   "packageFolders": {
-    "/home/levi/.nuget/packages/": {}
+    "C:\\Users\\brani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj",
+      "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj",
       "projectName": "RMS.Application",
-      "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/RMS.Application.csproj",
-      "packagesPath": "/home/levi/.nuget/packages/",
-      "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Application/obj/",
+      "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\RMS.Application.csproj",
+      "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/levi/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
-              "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj"
+            "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj": {
+              "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS - Main\\RMS.Domain\\RMS.Domain.csproj"
             }
           }
         }
@@ -1810,6 +1852,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
           "FluentValidation.DependencyInjectionExtensions": {
             "target": "Package",
             "version": "[11.9.0, )"
@@ -1851,7 +1897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
