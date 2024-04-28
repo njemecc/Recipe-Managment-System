@@ -1,0 +1,16 @@
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.BaseTests.deps.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.BaseTests.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.BaseTests.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.Domain.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.Domain.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.csproj.AssemblyReference.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.AssemblyInfoInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.AssemblyInfo.cs
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.csproj.CoreCompileInputs.cache
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.sourcelink.json
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.csproj.CopyComplete
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\refint\RMS.BaseTests.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\ref\RMS.BaseTests.dll

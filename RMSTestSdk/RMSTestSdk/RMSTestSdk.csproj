@@ -9,7 +9,8 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0"/>
-        <PackageReference Include="NjemecBranislavv" Version="0.0.1" />
+        <PackageReference Include="NjemecBranislavIngredientCreation" Version="0.0.1" />
+        <PackageReference Include="Refit" Version="7.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 

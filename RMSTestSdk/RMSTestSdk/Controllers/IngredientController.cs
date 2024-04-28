@@ -1,20 +1,25 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Refit;
 using RMS.SDK;
-using RMS.SDK.Dto;
-
+using RMS.SDK.Api.Dto.Ingredient;
+using RMS.SDK.Client;
+using RMS.SDK.Models;
 
 namespace RMSTestSdk.Controllers;
 
-public class IngredientController() : ControllerBase
+public class IngredientController:ControllerBase
+
 {
-    [HttpPost("create")]
-    public async Task<IActionResult> Create(RMSCategoryCreateDto category)
+    [HttpPost("createIngredient")]
+    public async Task<IActionResult> Create(IngredientCreateDto ingredient)
     {
 
-        var myApi = RestService.For<IRMSApi>("http://localhost:5035");
-        var result = await myApi.CreateCategoryAsync(new RMSCategoryCreateRequestDto(category));
+        var myApi =  RestService.For<IRMSApi>("http://localhost:5035");
+
+        var client = new RmsSdkClient(myApi);
+        
+        var result = await client.CreateIngredientAsync(new IngredientCreateRequestModel(ingredient.Name));
         return Ok(result);
 
     }
-}
+}   

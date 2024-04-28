@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj": {}
+  },
+  "projects": {
+    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj",
+        "projectName": "RMS.BaseTests",
+        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/RMS.BaseTests.csproj",
+        "packagesPath": "/home/levi/.nuget/packages/",
+        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.BaseTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/levi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
+                "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj",
+        "projectName": "RMS.Domain",
+        "projectPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/RMS.Domain.csproj",
+        "packagesPath": "/home/levi/.nuget/packages/",
+        "outputPath": "/home/levi/Projects/dotNet/RMS/RMS - Main/RMS.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/levi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "SmartEnums": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -31,6 +31,7 @@ public static class DependencyInjection
 
         services.AddScoped<IPostgresDbContext>(provider => provider.GetRequiredService<PostgresDbContext>());
         services.AddScoped<IRecipeService, RecipeService>();
+        services.AddScoped<IJwtProvider,JwtProvider>();
         return services;
     }
     
