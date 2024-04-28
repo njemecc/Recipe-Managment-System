@@ -1,21 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "mnqIAwgXllPfZdjQruO1st8A6DEv35i6EBueTH4G9hnA4OK7F0qiY5P/EC4bZDr7UJ9ry9NaWnSGr+bwuS2IQw==",
+  "dgSpecHash": "gEikYD2eknfGYlxMy4n/kudRBRBYW9D9kFmAJK18bBGsUeHd1Xp6mw1KnaICzZpsDHaFdgun4IXsiS6A21oAwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj",
+  "projectFilePath": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\brani\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\njemecbranislavv\\0.0.1\\njemecbranislavv.0.0.1.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+    "/home/levi/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/levi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/home/levi/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/levi/.nuget/packages/njemecbranislavingredientcreation/0.0.1/njemecbranislavingredientcreation.0.0.1.nupkg.sha512",
+    "/home/levi/.nuget/packages/refit/7.0.0/refit.7.0.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.net.http.json/7.0.1/system.net.http.json.7.0.1.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }

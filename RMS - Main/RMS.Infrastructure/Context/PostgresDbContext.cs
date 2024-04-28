@@ -9,7 +9,7 @@ using RMS.Infrastructure.Configuration;
 
 namespace RMS.Infrastructure.Context;
 
-public class PostgresDbContext: IdentityDbContext<ApplicationUser,IdentityRole,string,IdentityUserClaim<string>,IdentityUserRole<string>,IdentityUserLogin<string>,IdentityRoleClaim<string>,IdentityUserToken<string>>,IPostgresDbContext
+public class PostgresDbContext(DbContextOptions<PostgresDbContext> options): IdentityDbContext<ApplicationUser,IdentityRole,string,IdentityUserClaim<string>,IdentityUserRole<string>,IdentityUserLogin<string>,IdentityRoleClaim<string>,IdentityUserToken<string>>(options),IPostgresDbContext
 {
     protected override void OnModelCreating(ModelBuilder builder)
     {

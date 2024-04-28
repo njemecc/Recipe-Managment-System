@@ -1,10 +1,10 @@
-﻿using RMS.SDK.Api.Dto.Ingredient;
+﻿using RMS.SDK.Application.Client;
 using RMS.SDK.Application.Extensions;
 using RMS.SDK.Application.Models;
 using RMS.SDK.Extensions;
 using RMS.SDK.Models;
 
-namespace RMS.SDK.Application.Client;
+namespace RMS.SDK.Client;
 
 public class RmsSdkClient(IRMSApi api) : IRmsSdkClient
 {
@@ -18,7 +18,7 @@ public class RmsSdkClient(IRMSApi api) : IRmsSdkClient
 
 
 
-    public async Task<IngredientCreateResponseDto> CreateIngredientAsync(IngredientCreateRequestModel request)
+    public async Task<IngredientCreateResponseModel> CreateIngredientAsync(IngredientCreateRequestModel request)
     {
 
         var result = await api.CreateIngredientAsync(request.ToDto());

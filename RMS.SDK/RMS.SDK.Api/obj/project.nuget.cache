@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ghz5fukjq3mNU44UaelqxWAP18Oqwg/+AOefQz+K3sOLUfQtw+zSCwN+0L6iCi9w6qiQcoPIVrlP6Ex6vliBlA==",
+  "dgSpecHash": "NQLlNyXYg8/SCsQEe8pbOq3Omo6ED2ykK45ErJjCvV4CveDeLrvTOTHo8woKrB7TzJE+GkiPEGWeLycJl0YfGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMS.SDK\\RMS.SDK.Api\\RMS.SDK.Api.csproj",
+  "projectFilePath": "/home/levi/Projects/dotNet/RMS/RMS.SDK/RMS.SDK.Api/RMS.SDK.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\brani\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\brani\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+    "/home/levi/.nuget/packages/refit/7.0.0/refit.7.0.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.net.http.json/7.0.1/system.net.http.json.7.0.1.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.reflection.emit.ilgeneration/4.7.0/system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/levi/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }

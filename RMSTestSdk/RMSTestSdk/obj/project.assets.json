@@ -32,6 +32,22 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.2.24128.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.OpenApi/1.4.3": {
         "type": "package",
         "compile": {
@@ -45,16 +61,18 @@
           }
         }
       },
-      "NjemecBranislavv/0.0.1": {
+      "NjemecBranislavIngredientCreation/0.0.1": {
         "type": "package",
         "dependencies": {
-          "Refit": "7.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5"
         },
         "compile": {
-          "lib/net8.0/RMS.SDK.dll": {}
+          "lib/net8.0/RMS.SDK.Api.dll": {},
+          "lib/net8.0/RMS.SDK.Application.dll": {}
         },
         "runtime": {
-          "lib/net8.0/RMS.SDK.dll": {}
+          "lib/net8.0/RMS.SDK.Api.dll": {},
+          "lib/net8.0/RMS.SDK.Application.dll": {}
         }
       },
       "Refit/7.0.0": {
@@ -450,6 +468,36 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.2.24128.5": {
+      "sha512": "o5j9Gk+qVb0wmOvP4OmGp4Q6KhGDebpwhtiUpoJyiksqFCxbYG4tt2fLaCtsj18CVy8+wVmG73FaYERz9MBe/w==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.2.24128.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.OpenApi/1.4.3": {
       "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "type": "package",
@@ -464,16 +512,17 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "NjemecBranislavv/0.0.1": {
-      "sha512": "rgBp1ShPpMgB+Ju0/D6IbRqFJJqTs+DELJLadGM6LkmIMar9Yn64683lSF6vTsU2Z47GWySNg6OwxLi9/hWk8g==",
+    "NjemecBranislavIngredientCreation/0.0.1": {
+      "sha512": "RCumFi5EmE/vIAT3GnXU1LcskGg4UkRTEWkSByb+Spd//3vN5UTHauN5aUbV5vfUElXIjBR2nZXV1FeXKjCv2w==",
       "type": "package",
-      "path": "njemecbranislavv/0.0.1",
+      "path": "njemecbranislavingredientcreation/0.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net8.0/RMS.SDK.dll",
-        "njemecbranislavv.0.0.1.nupkg.sha512",
-        "njemecbranislavv.nuspec"
+        "lib/net8.0/RMS.SDK.Api.dll",
+        "lib/net8.0/RMS.SDK.Application.dll",
+        "njemecbranislavingredientcreation.0.0.1.nupkg.sha512",
+        "njemecbranislavingredientcreation.nuspec"
       ]
     },
     "Refit/7.0.0": {
@@ -719,31 +768,30 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
-      "NjemecBranislavv >= 0.0.1",
+      "NjemecBranislavIngredientCreation >= 0.0.1",
+      "Refit >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brani\\.nuget\\packages\\": {}
+    "/home/levi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj",
+      "projectUniqueName": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj",
       "projectName": "RMSTestSdk",
-      "projectPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\RMSTestSdk.csproj",
-      "packagesPath": "C:\\Users\\brani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brani\\RiderProjects\\RMS\\RMSTestSdk\\RMSTestSdk\\obj\\",
+      "projectPath": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/RMSTestSdk.csproj",
+      "packagesPath": "/home/levi/.nuget/packages/",
+      "outputPath": "/home/levi/Projects/dotNet/RMS/RMSTestSdk/RMSTestSdk/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\brani\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/levi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -766,9 +814,13 @@
             "target": "Package",
             "version": "[8.0.0, )"
           },
-          "NjemecBranislavv": {
+          "NjemecBranislavIngredientCreation": {
             "target": "Package",
             "version": "[0.0.1, )"
+          },
+          "Refit": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -794,7 +846,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
