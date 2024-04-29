@@ -22,6 +22,7 @@
 
     <ItemGroup>
       <Folder Include="Common\Validators\" />
+      <Folder Include="Constants\" />
     </ItemGroup>
 
 </Project>

@@ -335,3 +335,4 @@ C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Api\obj\Debug\net8.0\refint\RMS.
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Api\obj\Debug\net8.0\RMS.Api.pdb
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Api\obj\Debug\net8.0\RMS.Api.genruntimeconfig.cache
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Api\obj\Debug\net8.0\ref\RMS.Api.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
