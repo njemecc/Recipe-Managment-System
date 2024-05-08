@@ -10,7 +10,7 @@ namespace RMS.Api.Controllers;
 
 public class RecipeController(IPostgresDbContext dbContext): ApiBaseController
 {
-    [Authorize]
+    
     [HttpPost]
     public async Task<IActionResult> Create(RecipeCreateCommand command) => Ok(await Mediator.Send(command));
 

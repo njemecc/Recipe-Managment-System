@@ -14,8 +14,6 @@ public class Recipe
     
     public string Instruction { get; set; }
     
-    public Category Category { get; set; }
-    
     public IList<RecipeIngrediant> Ingrediants { get; set; } 
     
     public ApplicationUser User

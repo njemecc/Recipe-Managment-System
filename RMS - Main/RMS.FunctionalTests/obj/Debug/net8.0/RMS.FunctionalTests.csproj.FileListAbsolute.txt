@@ -446,3 +446,14 @@ C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\obj\Debug\net8.0
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\obj\Debug\net8.0\ref\RMS.FunctionalTests.dll
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\RMS.BaseTests.dll
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\RMS.BaseTests.pdb
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Ardalis.SmartEnum.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\SmartEnums.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.FunctionalTests\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
