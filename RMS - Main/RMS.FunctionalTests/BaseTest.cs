@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Moq;
 using RMS.Application.Common.Interfaces;
+using RMS.Infrastructure.Context;
 
 namespace RMS.FunctionalTests;
 
@@ -11,7 +12,7 @@ public class BaseTest : IClassFixture<CustomWebApplicationFactory<Program>>
 
     private readonly CustomWebApplicationFactory<Program> _factory;
     public readonly HttpClient Client;
-    public readonly IPostgresDbContext DbContext;
+    public readonly PostgresDbContext PostgresDbContext ;
     public readonly Mock<IRecipeService> MockRecipeService;
 
 
@@ -20,7 +21,7 @@ public class BaseTest : IClassFixture<CustomWebApplicationFactory<Program>>
         _factory = factory;
         Client = factory.CreateClient();
         var scope = factory.Services.CreateScope();
-        DbContext = scope.ServiceProvider.GetRequiredService<IPostgresDbContext>();
+        PostgresDbContext = scope.ServiceProvider.GetRequiredService<PostgresDbContext>();
         MockRecipeService = factory.MockRecipeService;
     }
     

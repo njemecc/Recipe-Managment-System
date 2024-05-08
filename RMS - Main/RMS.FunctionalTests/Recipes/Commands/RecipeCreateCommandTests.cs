@@ -24,16 +24,13 @@ public class RecipeCreateCommandTests : BaseTest
         //given
 
         var user = new UserBuilder().WithFirstName("-").WithLastName("-").WithEmail("-").WithPassword("-").Build();
-        var category = new CategoryBuilder().WithName("-").Build();
+        var category = new CategoryBuilder().WithName("-").WithValue(42).Build();
 
         var ingredient = new IngredientBuilder().WithName("-").Build();
-
-        var ingredientCreateDto = ingredient.FromEntityToIngredientCreateDto();
         
-
-        await DbContext.Users.AddAsync(user);
-        await DbContext.Ingredients.AddAsync(ingredient);
-        await DbContext.SaveChangesAsync(new CancellationToken());
+        await PostgresDbContext.Users.AddAsync(user);
+        await PostgresDbContext.Ingredients.AddAsync(ingredient);
+        await PostgresDbContext.SaveChangesAsync(new CancellationToken());
 
         var recipe = new RecipeBuilder().WithUser(user).WithCategory(category).WithInstruction("-").WithTitle("-").Build();
         var serializedRecipe = JsonSerializer.Serialize(recipe);
@@ -43,9 +40,6 @@ public class RecipeCreateCommandTests : BaseTest
 
         var response = await Client.PostAsync("/api/Recipe/Create", searializedRecipeStringContent);
         
-        
-
-
         //Then
 
         using var _ = new AssertionScope();

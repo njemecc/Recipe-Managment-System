@@ -12,6 +12,6 @@ public class PostgresDbConfiguration
     
     public string? Password { get; set; }
 
-    public string ConnectionString => $"Host={DbHost}; Database={DbName}; Username:{UserName}; Password={Password};";
+    public string ConnectionString => $"Host={DbHost}; Database={DbName}; Username={UserName}; Password={Password};";
 
 }

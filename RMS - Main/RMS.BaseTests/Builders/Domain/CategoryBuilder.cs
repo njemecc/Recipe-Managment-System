@@ -6,6 +6,7 @@ namespace RMS.BaseTests.Builders.Domain
     public class CategoryBuilder
     {
         private string _name;
+        private int _value;
 
         public CategoryBuilder WithName(string name)
         {
@@ -13,9 +14,15 @@ namespace RMS.BaseTests.Builders.Domain
             return this;
         }
 
+        public CategoryBuilder WithValue(int value)
+        {
+            _value = value;
+            return this;
+        }
+
         public Category Build()
         {
-            return new Category("-", new Random().Next());
+            return new Category(_name, _value);
         }
     }
 }
