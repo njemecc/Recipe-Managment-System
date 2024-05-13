@@ -14,7 +14,7 @@ public class Recipe
     
     public string Instruction { get; set; }
     
-    public IList<RecipeIngrediant> Ingrediants { get; set; } 
+    public IList<RecipeIngrediant>? Ingrediants { get; set; } 
     
     public ApplicationUser User
     {
@@ -29,16 +29,10 @@ public class Recipe
         return this;
     }
     
-    public Recipe AddCategory(Category category)
-    {
-        Category = category;
-        return this;
-    }
     
-
     public Recipe()
     {
-        Id = new Guid();
+        Id = Guid.NewGuid();
 
     }
     
