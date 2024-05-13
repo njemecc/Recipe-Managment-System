@@ -8,7 +8,6 @@ using RMS.Application.Common.Dto.Recipe;
 using RMS.Application.Common.Mappers;
 using RMS.BaseTests.Builders.Commands;
 using RMS.BaseTests.Builders.Domain;
-using RMS.Domain.Entities;
 
 
 namespace RMS.FunctionalTests.Recipes.Commands;
@@ -50,7 +49,7 @@ public class RecipeCreateCommandTests : BaseTest
 
         content.Should().NotBeNull();
         content.Title.Should().Be(recipe.Title);
-        content.UserName.Should().Be(user.UserName);
+        content.UserName.Should().Be(recipe.User.FirstName);
         content.Instruction.Should().Be(recipe.Instruction);
         
 

@@ -3,6 +3,7 @@ using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Options;
 using RMS.Api.Auth.Options;
+using RMS.Application.Common.Configuration;
 using RMS.Application.Common.Interfaces;
 
 namespace RMS.Api.Auth.Schemas;
@@ -11,12 +12,14 @@ public class HeaderBasicAuthenticationHandler : AuthenticationHandler<HeaderBasi
 {
 
     private readonly IPostgresDbContext _dbContext;
+    private readonly AesEncryptionConfiguration _aesEncryptionConfiguration;
     
     
     [Obsolete("Obsolete")]
     public HeaderBasicAuthenticationHandler(IOptionsMonitor<HeaderBasicAuthenticationSchemeOptions> options,ILoggerFactory logger, UrlEncoder encoder,IPostgresDbContext dbContext,ISystemClock clock): base(options, logger, encoder, clock)
     {
         _dbContext = dbContext;
+     
     }
 
     public HeaderBasicAuthenticationHandler(IOptionsMonitor<HeaderBasicAuthenticationSchemeOptions> options,

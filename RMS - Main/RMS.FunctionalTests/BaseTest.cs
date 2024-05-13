@@ -22,7 +22,7 @@ public class BaseTest : IClassFixture<CustomWebApplicationFactory<Program>>
         Client = factory.CreateClient();
         var scope = factory.Services.CreateScope();
         PostgresDbContext = scope.ServiceProvider.GetRequiredService<PostgresDbContext>();
-        MockRecipeService = factory.MockRecipeService;
+        //MockRecipeService = factory.MockRecipeService;
     }
     
 }

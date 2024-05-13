@@ -44,11 +44,10 @@ public class RecipeService(IPostgresDbContext dbContext) : IRecipeService
         }
        
         
-        var result = dbContext.Recipes.Add(recipeEntity);
+         await dbContext.Recipes.AddAsync(recipeEntity);
 
         await dbContext.SaveChangesAsync(CancellationToken.None);
-
-        //pokusati i ToDto(); ovde da vidimo da li automatski mapira 
+        
         return recipeEntity.ToCustomDetailsDto();
     }
 }
