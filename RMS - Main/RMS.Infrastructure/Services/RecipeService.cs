@@ -14,30 +14,35 @@ public class RecipeService(IPostgresDbContext dbContext) : IRecipeService
     {
         var user = await dbContext.Users.Where(x => x.Id == recipe.UserId).FirstOrDefaultAsync();
 
-        var category = new Category("Basic Meal", new Random().Next());
+       
         
-        if (user == null || category == null )
+        if (user == null )
         {
-            throw new Exception("User or Category with this ID does not exists");
+            throw new Exception("User with this ID does not exists");
         }
-        
-        var recipeEntity = recipe.FromCreateDtoToEntity().AddUser(user).AddCategory(category);
 
-        foreach (var ing in recipe.Ingredients)
+        var recipeEntity = recipe.FromCreateDtoToEntity().AddUser(user);
+
+
+        if (recipe.Ingredients != null && recipe.Ingredients.Count > 0)
         {
-            var ingrediantEntity = ing.FromCreateIngredientDtoToEntity();
-               
-            dbContext.Ingredients.Add(ing.FromCreateIngredientDtoToEntity());
-
-            var recipeIngredient = new RecipeIngrediant
+            foreach (var ing in recipe.Ingredients)
             {
-                Recipe = recipeEntity,
-                Ingredient = ingrediantEntity
-            };
+                var ingrediantEntity = ing.FromCreateIngredientDtoToEntity();
+               
+                dbContext.Ingredients.Add(ing.FromCreateIngredientDtoToEntity());
 
-            dbContext.RecipeIngrediants.Add(recipeIngredient);
+                var recipeIngredient = new RecipeIngrediant
+                {
+                    Recipe = recipeEntity,
+                    Ingredient = ingrediantEntity
+                };
 
+                dbContext.RecipeIngrediants.Add(recipeIngredient);
+
+            }
         }
+       
         
         var result = dbContext.Recipes.Add(recipeEntity);
 
