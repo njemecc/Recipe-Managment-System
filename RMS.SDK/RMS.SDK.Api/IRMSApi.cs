@@ -10,6 +10,6 @@ public interface IRMSApi
     public Task<RmsCategoryCreateResponseDto> CreateCategoryAsync(RMSCategoryCreateRequestDto request);
     
     
-    [Post("/api/Ingredient/Create")]
+    [Post("/webhook/IngredientCreationWebHook/Create")]
     public Task<IngredientCreateResponseDto> CreateIngredientAsync(IngredientCreateRequestDto request);
 }
