@@ -1,0 +1,38 @@
+name: Azure deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Login to Azure Container Registry
+        uses: azure/docker-login@v1
+        with:
+          login-server: rmscontainerregister.azurecr.io
+          username: ${{ secrets.AZURE_REGISTRY_USERNAME }}
+          password: ${{ secrets.AZURE_REGISTRY_PASSWORD }}
+
+      - name: Build and push Docker image
+        run: |
+          docker build -f /RMS-Main/RMS.Api/Dockerfile --force-rm -t rmscontainerregister.azurecr.io/rms:latest .
+          docker push rmscontainerregister.azurecr.io/rms:latest
+          docker run -d -p 8080:8080 rmscontainerregister.azurecr.io/rms:latest
+          
+      - name: Deploy to Azure Container Instance
+        uses: azure/container-actions/container-instance-deploy@v1
+        with:
+          resource-group: RMS-database-resource-group
+          name: newContainer
+          image: rmscontainerregister.azurecr.io/rms:latest
+          dns-name-label: newContainerDns
+          cpu: 1
+          memory: 1.5
+          
