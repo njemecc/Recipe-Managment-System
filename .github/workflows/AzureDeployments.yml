@@ -22,12 +22,12 @@ jobs:
           docker login rmscontainerregister.azurecr.io --username ${{ secrets.AZURE_REGISTRY_USERNAME }} --password-stdin <<< "${{ secrets.AZURE_REGISTRY_PASSWORD }}"
           docker push rmscontainerregister.azurecr.io/rms:latest
 
-      - name: Deploy to Azure Container Instance
-        uses: azure/webapps-container-deploy@v1
-        with:
-          resource-group: RMS-database-resource-group
-          name: newContainer
-          image: rmscontainerregister.azurecr.io/rms:latest
-          dns-name-label: newContainerDns
-          cpu: 1
-          memory: 1.5
+      # - name: Deploy to Azure Container Instance
+      #   uses: azure/webapps-container-deploy@v1
+      #   with:
+      #     resource-group: RMS-database-resource-group
+      #     name: newContainer
+      #     image: rmscontainerregister.azurecr.io/rms:latest
+      #     dns-name-label: newContainerDns
+      #     cpu: 1
+      #     memory: 1.5
