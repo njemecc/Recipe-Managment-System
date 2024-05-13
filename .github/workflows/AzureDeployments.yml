@@ -27,7 +27,7 @@ jobs:
           docker run -d -p 8080:8080 rmscontainerregister.azurecr.io/rms:latest
           
       - name: Deploy to Azure Container Instance
-        uses: azure/container-actions/webapp@v1
+        uses: azure/webapps-container-deploy@v1
         with:
           resource-group: RMS-database-resource-group
           name: newContainer
