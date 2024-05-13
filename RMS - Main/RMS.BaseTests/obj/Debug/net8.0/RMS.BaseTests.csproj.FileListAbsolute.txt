@@ -14,3 +14,5 @@ C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.B
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\refint\RMS.BaseTests.dll
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\RMS.BaseTests.pdb
 C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\obj\Debug\net8.0\ref\RMS.BaseTests.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.Application.dll
+C:\Users\brani\RiderProjects\RMS\RMS - Main\RMS.BaseTests\bin\Debug\net8.0\RMS.Application.pdb

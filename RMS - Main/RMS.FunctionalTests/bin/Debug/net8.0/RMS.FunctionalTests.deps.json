@@ -2285,6 +2285,7 @@
       },
       "RMS.BaseTests/1.0.0": {
         "dependencies": {
+          "RMS.Application": "1.0.0",
           "RMS.Domain": "1.0.0"
         },
         "runtime": {

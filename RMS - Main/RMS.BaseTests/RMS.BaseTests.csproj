@@ -7,11 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Builders\Dto\" />
+      <ProjectReference Include="..\RMS.Application\RMS.Application.csproj" />
+      <ProjectReference Include="..\RMS.Domain\RMS.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\RMS.Domain\RMS.Domain.csproj" />
+      <Folder Include="Builders\Dto\" />
     </ItemGroup>
 
 </Project>
