@@ -10,7 +10,7 @@ public class RecipeGetByIdQueryHandler(IPostgresDbContext dbContext) : IRequestH
 {
     public async Task<IList<RecipeDetailsDto>> Handle(RecipeGetByIdQuery request, CancellationToken cancellationToken)
     {
-        var result =  await dbContext.Recipes.Include(x => x.User).Include(x => x.Category).Where(x => x.User.Id == request.Id.ToString()).ToListAsync();
+        var result =  await dbContext.Recipes.Include(x => x.User).Where(x => x.User.Id == request.Id.ToString()).ToListAsync();
 
         if (result.Count == 0)
         {

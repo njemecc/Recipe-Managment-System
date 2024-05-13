@@ -6,6 +6,7 @@ using FluentAssertions;
 using FluentAssertions.Execution;
 using RMS.Application.Common.Dto.Recipe;
 using RMS.Application.Common.Mappers;
+using RMS.BaseTests.Builders.Commands;
 using RMS.BaseTests.Builders.Domain;
 using RMS.Domain.Entities;
 
@@ -24,21 +25,21 @@ public class RecipeCreateCommandTests : BaseTest
         //given
 
         var user = new UserBuilder().WithFirstName("-").WithLastName("-").WithEmail("-").WithPassword("-").Build();
-        var category = new CategoryBuilder().WithName("-").WithValue(42).Build();
-
-        var ingredient = new IngredientBuilder().WithName("-").Build();
+        
         
         await PostgresDbContext.Users.AddAsync(user);
-        await PostgresDbContext.Ingredients.AddAsync(ingredient);
         await PostgresDbContext.SaveChangesAsync(new CancellationToken());
 
-        var recipe = new RecipeBuilder().WithUser(user).WithCategory(category).WithInstruction("-").WithTitle("-").Build();
-        var serializedRecipe = JsonSerializer.Serialize(recipe);
+        var recipe = new RecipeBuilder().WithUser(user).WithInstruction("-").WithTitle("-").Build();
+        var createRecipeDto = recipe.FromEntityToCreateDto();
+        var recipeCreateCommand = new RecipeCreateCommandBuilder().WithRecipeCreateDto(createRecipeDto).Build();
+       
+        var serializedRecipe = JsonSerializer.Serialize(recipeCreateCommand);
         var searializedRecipeStringContent = new StringContent(serializedRecipe, Encoding.UTF8, "application/json");
 
         //When
 
-        var response = await Client.PostAsync("/api/Recipe/Create", searializedRecipeStringContent);
+        var response = await Client.PostAsync("/api/Recipe/Create", searializedRecipeStringContent,new CancellationToken());
         
         //Then
 
@@ -49,7 +50,6 @@ public class RecipeCreateCommandTests : BaseTest
 
         content.Should().NotBeNull();
         content.Title.Should().Be(recipe.Title);
-        content.CategoryName.Should().Be(category.Name);
         content.UserName.Should().Be(user.UserName);
         content.Instruction.Should().Be(recipe.Instruction);
         

@@ -9,10 +9,9 @@ namespace RMS.BaseTests.Builders.Domain
     {
         private string _title;
         private string _instruction;
-        private Category _category;
         private IList<RecipeIngrediant> _ingredients = new List<RecipeIngrediant>();
         private ApplicationUser _user;
-
+      
         public RecipeBuilder WithTitle(string title)
         {
             _title = title;
@@ -24,13 +23,6 @@ namespace RMS.BaseTests.Builders.Domain
             _instruction = instruction;
             return this;
         }
-
-        public RecipeBuilder WithCategory(Category category)
-        {
-            _category = category;
-            return this;
-        }
-
         public RecipeBuilder WithIngredients(IList<RecipeIngrediant> ingredients)
         {
             _ingredients = ingredients;
@@ -48,9 +40,9 @@ namespace RMS.BaseTests.Builders.Domain
             var recipe = new Recipe();
             recipe.Title = _title;
             recipe.Instruction = _instruction;
-            recipe.Category = _category;
             recipe.Ingrediants = _ingredients;
             recipe.AddUser(_user);
+            
             return recipe;
         }
     }
