@@ -11,13 +11,13 @@ namespace RMS.FunctionalTests;
 
 public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<TStartup> where TStartup : class
 {
-    public Mock<IRecipeService> MockRecipeService { get; } = new();
+ //   public Mock<IRecipeService> MockRecipeService { get; } = new();
 
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
         builder.ConfigureServices(services =>
         {
-            services.RemoveAll<PostgresDbContext>();
+            services.RemoveAll<DbContext>();
 
             var dbName = Guid.NewGuid()
                 .ToString();
@@ -27,7 +27,7 @@ public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<TStar
                 options.UseInMemoryDatabase(dbName);
             });
             
-            services.AddScoped(_ => MockRecipeService.Object);
+          //  services.AddScoped(_ => MockRecipeService.Object);
         });
     }
 
