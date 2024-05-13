@@ -40,13 +40,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "IngredientCreationPackageNjemecBranislav": {
+              "target": "Package",
+              "version": "[0.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "NjemecBranislavIngredientCreation": {
-              "target": "Package",
-              "version": "[0.0.1, )"
             },
             "Refit": {
               "target": "Package",

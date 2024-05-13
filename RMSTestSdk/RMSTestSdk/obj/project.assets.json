@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "IngredientCreationPackageNjemecBranislav/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5"
+        },
+        "compile": {
+          "lib/net8.0/RMS.SDK.Api.dll": {},
+          "lib/net8.0/RMS.SDK.Application.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/RMS.SDK.Api.dll": {},
+          "lib/net8.0/RMS.SDK.Application.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -59,20 +73,6 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "NjemecBranislavIngredientCreation/0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5"
-        },
-        "compile": {
-          "lib/net8.0/RMS.SDK.Api.dll": {},
-          "lib/net8.0/RMS.SDK.Application.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/RMS.SDK.Api.dll": {},
-          "lib/net8.0/RMS.SDK.Application.dll": {}
         }
       },
       "Refit/7.0.0": {
@@ -222,6 +222,19 @@
     }
   },
   "libraries": {
+    "IngredientCreationPackageNjemecBranislav/0.0.1": {
+      "sha512": "9YEBRRhFhJkKE2bazG/FBNQvV3oANN3OFuEN1SnKdvK+3uKsFnNPjwDYDbT/inFTUKDoXQV/umyEl/jH2/wrKw==",
+      "type": "package",
+      "path": "ingredientcreationpackagenjemecbranislav/0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ingredientcreationpackagenjemecbranislav.0.0.1.nupkg.sha512",
+        "ingredientcreationpackagenjemecbranislav.nuspec",
+        "lib/net8.0/RMS.SDK.Api.dll",
+        "lib/net8.0/RMS.SDK.Application.dll"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/8.0.0": {
       "sha512": "T4mwMvPSOYAp+KeQ4xO8H2rxpiOMJ9W/7yBBkUTMp96AHtGlPN4s7hbax2tM61LxTY775JKL4fiv5grn41EHXw==",
       "type": "package",
@@ -512,19 +525,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "NjemecBranislavIngredientCreation/0.0.1": {
-      "sha512": "RCumFi5EmE/vIAT3GnXU1LcskGg4UkRTEWkSByb+Spd//3vN5UTHauN5aUbV5vfUElXIjBR2nZXV1FeXKjCv2w==",
-      "type": "package",
-      "path": "njemecbranislavingredientcreation/0.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net8.0/RMS.SDK.Api.dll",
-        "lib/net8.0/RMS.SDK.Application.dll",
-        "njemecbranislavingredientcreation.0.0.1.nupkg.sha512",
-        "njemecbranislavingredientcreation.nuspec"
-      ]
-    },
     "Refit/7.0.0": {
       "sha512": "MeOXucNjebiLiOM+hM4niN2cWLlwaQWNCGZs0LDUEoCVwOtV/IWOMOqlAbUeb8Y0/iOgMai2g6Gz9M/d6V7gtA==",
       "type": "package",
@@ -767,8 +767,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "IngredientCreationPackageNjemecBranislav >= 0.0.1",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
-      "NjemecBranislavIngredientCreation >= 0.0.1",
       "Refit >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -812,13 +812,13 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "IngredientCreationPackageNjemecBranislav": {
+            "target": "Package",
+            "version": "[0.0.1, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.0, )"
-          },
-          "NjemecBranislavIngredientCreation": {
-            "target": "Package",
-            "version": "[0.0.1, )"
           },
           "Refit": {
             "target": "Package",
