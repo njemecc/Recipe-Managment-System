@@ -17,7 +17,7 @@ jobs:
         run: az acr login --name rmsContainerRegister --username ${{ secrets.AZURE_REGISTRY_USERNAME }} --password ${{ secrets.AZURE_REGISTRY_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -f RMS.Api/Dockerfile --force-rm -t rmscontainerregister.azurecr.io/rms:latest .
+        run: docker build -f "RMS - Main/RMS/RMS.Api/Dockerfile" --force-rm -t rmscontainerregister.azurecr.io/rms:latest .
       
       - name: Push Docker image
         run: docker push rmscontainerregister.azurecr.io/rms:latest
