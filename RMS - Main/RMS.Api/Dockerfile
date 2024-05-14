@@ -14,7 +14,7 @@ COPY ["RMS - Main/RMS.Infrastructure/RMS.Infrastructure.csproj", "RMS.Infrastruc
 RUN dotnet restore "RMS.Api/RMS.Api.csproj"
 COPY . .
 WORKDIR "/src/RMS.Api"
-RUN dotnet build "RMS.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "RMS - Main/RMS.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
