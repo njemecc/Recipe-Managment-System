@@ -3,8 +3,8 @@ name: RMS tests
 on:
   push:
     branches:
-      - "feature/*" # matches every feature branch containing a single '/'
-      - "master" # matches master branch '/'
+      - "f/*" # matches every feature branch containing a single '/'
+      - master # matches master branch '/'
       - "!release/**" # excludes release
 
 jobs:
