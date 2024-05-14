@@ -16,11 +16,16 @@ jobs:
       - name: Login to Azure Container Registry
         run: az acr login --name rmsContainerRegister --username ${{ secrets.AZURE_REGISTRY_USERNAME }} --password ${{ secrets.AZURE_REGISTRY_PASSWORD }}
 
-      - name: Build and push Docker image
-        run: |
-          docker build -f "RMS - Main/RMS.Api/Dockerfile" --force-rm -t rmscontainerregister.azurecr.io/rms:latest .
-          docker push rmscontainerregister.azurecr.io/rms:latest
+      - name: Build Docker image
+        run: docker build -f "RMS - Main/RMS.Api/Dockerfile" --force-rm -t rmscontainerregister.azurecr.io/rms:latest .
+      
+      - name: Push Docker image
+        run: docker push rmscontainerregister.azurecr.io/rms:latest
 
+      - name: Run Docker container 
+        run: docker run -d -p 8080:8080 rmscontainerregister.azurecr.io/rms:latest
+
+    
       # - name: Deploy to Azure Container Instance
       #   uses: azure/webapps-container-deploy@v1
       #   with:
