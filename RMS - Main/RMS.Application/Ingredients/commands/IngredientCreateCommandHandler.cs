@@ -12,6 +12,7 @@ namespace RMS.Application.Ingredients.commands
         {
             var newIngredient = await dbContext.Ingredients.AddAsync(new Ingredient(request.Ingredient.Name));
 
+            
             await dbContext.SaveChangesAsync(CancellationToken.None);
 
             return newIngredient.Entity.FromEntityToIngredientDetailsDto();

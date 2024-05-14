@@ -7,7 +7,7 @@ using RMS.Application.Ingredients.commands;
 namespace RMS.Api.Webhooks;
 
 
-[Authorize(AuthenticationSchemes = nameof(AuthConstants.HeaderBasicAuthenticationScheme))]
+// [Authorize(AuthenticationSchemes = nameof(AuthConstants.HeaderBasicAuthenticationScheme))]
 public class IngredientCreationWebHook : BaseWebhook
 {
     [HttpPost]
