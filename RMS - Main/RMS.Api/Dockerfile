@@ -7,7 +7,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["RMS.Api/RMS.Api.csproj", "RMS.Api/"]
+COPY ["RMS - Main/RMS.Api/RMS.Api.csproj", "RMS.Api/"]
 COPY ["RMS.Domain/RMS.Domain.csproj", "RMS.Domain/"]
 COPY ["RMS.Application/RMS.Application.csproj", "RMS.Application/"]
 COPY ["RMS.Infrastructure/RMS.Infrastructure.csproj", "RMS.Infrastructure/"]
